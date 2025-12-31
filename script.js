@@ -15,11 +15,11 @@ const scenes = [
   { text: "Город провожал слепящее небо. Облако исчезло с последней страницей главы."},
   { text: "Где-то вдалеке зажглись огни. Снова и снова."},
   { text: "Отвага, интерес, мир..."},
-  { text: "С новым годом!", bg: "images/Back.jpg"},
+  { text: "С наступающим новым годом!", bg: "images/Back.jpg"},
   { text: "Интересно, правда?", bg: "images/back_Yan.jpg"},
   { text: "Стоит добавить больше мужиков", bg: "images/back_boris.jpg"},
   { text: "Надеюсь, они мне не приснятся...", bg: "images/back_dima.jpg"},
-  { text: "Картинки крутые", bg: "images/back_golod.jpg"},
+  { text: "На охране подарков и деда мороза", bg: "images/back_golod.jpg"},
   { text: "Как-то так)", fireworks: true },
 ];
 
