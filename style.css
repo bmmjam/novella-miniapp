@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: "Georgia", serif;
+}
+
+body {
+    margin: 0;
+    background: #0f0f14;
+    color: #f5f5f7;
+}
+
+#app {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen {
+    display: none;
+    width: 90%;
+    max-width: 420px;
+    text-align: center;
+}
+
+.screen.active {
+    display: block;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+#text {
+    min-height: 160px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+button {
+    background: #d4af37;
+    color: #000;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
