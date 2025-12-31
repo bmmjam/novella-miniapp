@@ -16,8 +16,8 @@ const scenes = [
   { text: "Где-то вдалеке зажглись огни. Снова и снова."},
   { text: "Отвага, интерес, мир..."},
   { text: "С новым годом!", bg: "images/Back.jpg"},
-  { text: "Интересно получилось, правда?", bg: "images/back_Yan.jpg"},
-  { text: "Стоит добавить больше фаворитов", bg: "images/back_boris.jpg"},
+  { text: "Интересно, правда?", bg: "images/back_Yan.jpg"},
+  { text: "Стоит добавить больше мужиков", bg: "images/back_boris.jpg"},
   { text: "Надеюсь, они мне не приснятся...", bg: "images/back_dima.jpg"},
   { text: "Картинки крутые", bg: "images/back_golod.jpg"},
   { text: "Как-то так)", fireworks: true },
@@ -49,7 +49,7 @@ nextBtn.onclick = () => {
     showScene();
   } else {
     nextBtn.disabled = true;
-    typeText("— Конец пролога. Новая глава начинается сейчас.");
+    typeText("— Конец!");
     setFireworks(false);
   }
 };
